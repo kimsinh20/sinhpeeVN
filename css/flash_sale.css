@@ -1,0 +1,184 @@
+.flash_sale {
+  padding: 15px 0;
+  margin: 15px 25px;
+  background-color: #fff;
+}
+.flash_sale_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flash_sale_name {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.flash_sale_name img {
+  width: 130px;
+  height: 30px;
+  line-height: 30px;
+}
+.time {
+  width: 200px;
+  text-align: center;
+}
+.flash_sale_list {
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: none;
+  justify-content: space-between;
+}
+.flash_sale_name span {
+  height: 30px;
+  line-height: 20px;
+  padding: 5px;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+.watch_full {
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 15px;
+  color: #ee4d2d;
+  cursor: pointer;
+}
+.watch_full i {
+  padding: 4px 6px;
+  margin-left: 4px;
+  background-color: #ee4d2d;
+  color: #fff;
+  border-radius: 50%;
+}
+.flash_sale_item {
+  width: 173px;
+  position: relative;
+}
+.flash_sale_product {
+  width: 100%;
+  height: 173px;
+  background-image: url(https://cf.shopee.vn/file/ede41463bb5814feecbb8dc6c9f17317_tn),
+    url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUyzByLnK3LYUl5LfJd4YdrtycmQTuYtGAPg&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.flash_sale_item:nth-child(2) .flash_sale_product {
+  background-image: url(https://cf.shopee.vn/file/ede41463bb5814feecbb8dc6c9f17317_tn),
+    url(https://vinmec-prod.s3.amazonaws.com/images/20210318_031826_785842_do-an-dong-hop.max-800x800.jpg);
+}
+.flash_sale_item:nth-child(3) .flash_sale_product {
+  background-image: url(https://cf.shopee.vn/file/ede41463bb5814feecbb8dc6c9f17317_tn),
+    url(http://img.vinanet.vn/zoom/500/Uploaded/thuthuy/2020_06_18/cangu5_jpg1_ZJPB.jpg);
+}
+.flash_sale_item:nth-child(4) .flash_sale_product {
+  background-image: url(https://cf.shopee.vn/file/ede41463bb5814feecbb8dc6c9f17317_tn),
+    url(https://hapivegan.com/wp-content/uploads/2021/04/IMG_9659-1-scaled-1.jpg);
+}
+.flash_sale_item:nth-child(5) .flash_sale_product {
+  background-image: url(https://cf.shopee.vn/file/ede41463bb5814feecbb8dc6c9f17317_tn),
+    url(https://www.asiafoods.vn/publics/img/bg-img/sanpham/mianlien/L1.png);
+}
+.flash_sale_item:nth-child(6) .flash_sale_product {
+  background-image: url(https://cf.shopee.vn/file/ede41463bb5814feecbb8dc6c9f17317_tn),
+    url(https://i.ytimg.com/vi/Fpo6Dz72Xf8/maxresdefault.jpg);
+}
+.how_much_money {
+  text-align: center;
+}
+.prince {
+  display: block;
+  font-size: 18px;
+  font-weight: 650;
+  color: red;
+  padding: 10px;
+}
+#vnd {
+  font-size: 10px;
+  text-decoration: underline;
+}
+.number_product {
+  margin: 0 auto;
+  height: 18px;
+  line-height: 18px;
+  background-color: rgb(233, 155, 127);
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 10px;
+  z-index: 2;
+  position: relative;
+}
+.number_product::after {
+  display: block;
+  width: 10%;
+  height: 18px;
+  content: "";
+  background-color: orangered;
+  border-radius: 10px 0 0 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.sale_content {
+  width: 50px;
+  height: 50px;
+  background-color: #ffd424;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #ee4d2d;
+  font-size: 15px;
+  font-weight: 550;
+  position: absolute;
+  top: 0;
+  right: 0;
+  animation: an 1s infinite;
+}
+.sale_content::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 15px solid #ffd424;
+  border-right: 25px solid transparent;
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+}
+.sale_content::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 15px solid #ffd424;
+  border-left: 25px solid transparent;
+  position: absolute;
+  bottom: -15px;
+  right: 0;
+}
+.sale_content span:last-child {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+}
+.flash_sale_item:nth-child(2) .number_product::after {
+  width: 20%;
+}
+.flash_sale_item:nth-child(3) .number_product::after {
+  width: 23%;
+}
+.flash_sale_item:nth-child(4) .number_product::after {
+  width: 40%;
+}
+.flash_sale_item:nth-child(5) .number_product::after {
+  width: 60%;
+}
+.flash_sale_item:nth-child(6) .number_product::after {
+  width: 30%;
+}
+/* .flash_sale_product:hover {
+  
+} */

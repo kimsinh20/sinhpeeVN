@@ -1,0 +1,37 @@
+.container {
+  background-color: rgb(248, 242, 242);
+  transform: translateY(120px);
+}
+/* img_contentc */
+.img_link {
+  margin: 0 25px;
+}
+.img_link_content {
+  cursor: pointer;
+}
+.img_link_content img {
+  width: 100%;
+}
+.footer {
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+}
+/* /// .container_image_link  */
+.container_image_link {
+  margin-top: 10px;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container_image_link_item img {
+  width: 412px;
+}
+@keyframes qr {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}

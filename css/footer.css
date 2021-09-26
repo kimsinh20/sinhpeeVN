@@ -1,0 +1,124 @@
+.button {
+  width: 100%;
+  background-color: #fff;
+}
+.button button {
+  display: block;
+  margin: 30px auto;
+  width: 604px;
+  color: #000;
+  background-color: #f7f6f2;
+  border-radius: 7px;
+  border: 2px #fff;
+  padding: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  height: 50px;
+  transition: 0.7s ease-in hover;
+}
+button:hover {
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  color: black;
+  border: 4px red;
+  box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.4);
+}
+.list-convenient {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+.list-convenient a {
+  font-size: 16px;
+  display: block;
+  width: 250px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+.list-convenient a img {
+  width: 130px;
+  display: block;
+  margin: 0 auto;
+}
+.list-convenient .info {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+.list-convenient .info-content {
+  color: #000;
+  opacity: 0.7;
+}
+.contact {
+  display: flex;
+  background-color: rgba(247, 238, 238, 0.986);
+}
+.contact .about {
+  display: inline-block;
+  width: 306px;
+  text-align: left;
+}
+.about span {
+  margin-top: 10px;
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.contact .about a {
+  text-decoration: none;
+  display: block;
+  opacity: 0.85;
+  color: #000;
+  cursor: pointer;
+  font-size: 16px;
+}
+.about img {
+  margin: 10px 7px 0 0;
+  width: 128px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 414px) {
+  .button button {
+    width: 220px;
+  }
+  .header-two .sign-in {
+    font-size: 14px;
+  }
+  .list-convenient {
+    margin-left: 0;
+  }
+  .list-convenient a img {
+    width: 70px;
+  }
+  .list-convenient .info {
+    display: block;
+  }
+  .contact {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card:last-child {
+    display: none;
+  }
+  .card:nth-child(5) {
+    display: none;
+  }
+  .card:nth-child(3) {
+    display: none;
+  }
+  .card-body h5 {
+    font-size: 11px;
+  }
+  .card .sale-img {
+    width: 35px;
+    height: 14px;
+    top: 84px;
+  }
+  .card-body .card-text {
+    font-size: 9px;
+  }
+  .contact .about {
+    text-align: center;
+  }
+}

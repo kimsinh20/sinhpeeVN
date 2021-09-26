@@ -1,0 +1,126 @@
+@media only screen and (max-width: 414px) {
+  .header {
+    font-size: 15px;
+  }
+  .form {
+    display: none;
+  }
+  .navbar__list {
+    margin: 0;
+  }
+  .notification {
+    transform: translateX(100px);
+    width: 368px;
+    top: 38px;
+  }
+  .triangle {
+    right: 145px;
+  }
+  .form_lognIn_content {
+    top: 250px;
+  }
+  .list_search_shopping {
+    transform: translateX(71px);
+    width: 364px;
+  }
+  .look_shopping_card {
+    transform: translateX(225px);
+  }
+  .triangle_two {
+    border-left: 19px solid transparent;
+    border-right: 19px solid transparent;
+    right: 55px;
+  }
+  .list_content {
+    padding: 10px 15px;
+  }
+  .content_img_end {
+    display: none;
+  }
+  .content_img_firts img {
+    width: 364px;
+  }
+  .none {
+    display: none;
+  }
+  .list_content_infor {
+    width: 100px;
+  }
+  .img_link_content img {
+    height: 50px;
+  }
+  .product_none {
+    display: none;
+  }
+  .list_sinhpeeMall_item {
+    display: none;
+  }
+  .container_image_link_item:nth-child(1),
+  .container_image_link_item:nth-child(3) {
+    display: none;
+  }
+  .flash_sale_name img {
+    width: 100px;
+  }
+  .time {
+    width: 140px;
+  }
+  .container_image_link_item img {
+    width: 365px;
+  }
+  .sinhpeeMall_slider img {
+    width: 365px;
+  }
+  .menu_product_row .menu_product_item:nth-child(1),
+  .menu_product_row .menu_product_item:nth-child(3) {
+    display: none;
+  }
+  .list-convenient .info {
+    font-size: 16px;
+  }
+  .list_content {
+    justify-content: space-between;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .list_content_item {
+    width: 90px;
+  }
+  .content_img_firts img {
+    width: 328px;
+  }
+  .list_product_link {
+    width: 100px;
+  }
+  .list_search {
+    transform: translateX(30px);
+  }
+  .flash_sale_item {
+    width: 145px;
+    position: relative;
+  }
+  .sinhpeeMall_container_product_item {
+    width: 150px;
+  }
+  .like_product {
+    left: 17px;
+    top: 210px;
+  }
+  .menu_product_price {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .container_image_link_item img {
+    width: 326px;
+  }
+  .sinhpeeMall_slider img {
+    width: 326px;
+  }
+  .list_search_shopping {
+    transform: translateX(71px);
+    width: 334px;
+  }
+  .look_shopping_card {
+    transform: translateX(190px);
+  }
+}
